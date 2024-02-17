@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
-from common import *
-from detect_frame import detect_hand_frame
+from utils.common import *
+
 
 MAX_HANDS = 2
 MODEL_PATH = './task/hand_landmarker.task'

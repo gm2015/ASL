@@ -1,7 +1,7 @@
 import mediapipe as mp
 import cv2
-from detect_frame import *
-from common import *
+from utils.detect_frame import *
+from utils.common import *
 
 POINT_COLOR = (255,0,255)
 CONN_COLOR = (20, 180, 90)
