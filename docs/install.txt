@@ -1,0 +1,4 @@
+$ python -m pip install mediapipe
+
+Download model/task:
+https://developers.google.com/mediapipe/solutions/vision/hand_landmarker#models

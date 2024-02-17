@@ -1,0 +1,20 @@
+(mediapipe - Python 3-10)
+1. Install Python 3-10
+
+2. Create env, cmd - in the project folder:
+>>virtualenv -p /path/to/python/version myenv
+
+2. On VScode, Shift+Control+P, choose "Python: Select Interpreter", python-3.10
+
+3. Activate, cmd:
+>>myenv\Scripts\activate.ps1
+
+---
+If PSSecurityException:
+PowerShell with admin:
+>>Set-ExecutionPolicy remotesigned
+chose A
+
+4. Now in virtual env
+
+pip install mediapipe
