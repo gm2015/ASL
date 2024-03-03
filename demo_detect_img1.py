@@ -38,7 +38,9 @@ points = get_world_points(detection_result)
 #print(points)
 #print(len(points))
 
-plot_hand_points(points)
-#draw_hand_points(points)
+#plot_hand_points(points)
+ext_points = interpolate_fingers(points)
+plot_points(ext_points)
+
 cv2.waitKey()
 cv2.destroyAllWindows
